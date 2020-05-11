@@ -75,3 +75,4 @@
 2020-05-11 16:35:49.508 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - --------------返回内容----------------
 2020-05-11 16:35:49.514 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
 2020-05-11 16:35:49.514 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - --------------返回内容----------------
+2020-05-11 16:40:34.470 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
