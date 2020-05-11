@@ -146,4 +146,9 @@
 		</repository>
 	</repositories>
   
+	<modules>
+		<module>zdefys-shop-eurekaserver</module>
+		<module>zdefys-shop-member</module>
+		<module>zdefys-shop-api</module>
+	</modules>
 </project>
