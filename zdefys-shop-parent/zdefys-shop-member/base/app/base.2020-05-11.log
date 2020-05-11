@@ -1,0 +1,77 @@
+2020-05-11 16:26:57.680 [main] INFO  com.zdefys.MemberServer - No active profile set, falling back to default profiles: default
+2020-05-11 16:26:59.252 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2020-05-11 16:26:59.253 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2020-05-11 16:26:59.383 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 16:27:01.457 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-11 16:27:01.458 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 16:27:01.463 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-11 16:27:01.463 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 16:27:01.771 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-05-11 16:27:02.025 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-05-11 16:27:02.025 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-05-11 16:27:02.130 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-05-11 16:27:02.130 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-05-11 16:27:02.370 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-05-11 16:27:02.454 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-05-11 16:27:02.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-05-11 16:27:02.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-05-11 16:27:02.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-05-11 16:27:02.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-05-11 16:27:02.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-05-11 16:27:02.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-05-11 16:27:02.612 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-05-11 16:27:02.614 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-05-11 16:27:02.618 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-11 16:27:02.620 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1589185622620 with initial instances count: 1
+2020-05-11 16:27:02.647 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1589185622647, current=UP, previous=STARTING]
+2020-05-11 16:27:02.648 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/192.168.1.129:member:8762: registering service...
+2020-05-11 16:27:02.685 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/192.168.1.129:member:8762 - registration status: 204
+2020-05-11 16:27:02.715 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2020-05-11 16:27:02.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2020-05-11 16:27:02.735 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-05-11 16:27:02.756 [main] INFO  com.zdefys.MemberServer - Started MemberServer in 6.104 seconds (JVM running for 6.594)
+2020-05-11 16:27:31.440 [http-nio-8762-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-11 16:27:31.490 [http-nio-8762-exec-2] INFO  com.zdefys.service.impl.DemoApiServiceImpl - this is demo
+2020-05-11 16:32:02.458 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-05-11 16:35:29.409 [main] INFO  com.zdefys.MemberServer - No active profile set, falling back to default profiles: default
+2020-05-11 16:35:31.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2020-05-11 16:35:31.038 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2020-05-11 16:35:31.233 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-11 16:35:33.499 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-11 16:35:33.499 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 16:35:33.506 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-11 16:35:33.506 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-11 16:35:33.819 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2020-05-11 16:35:34.071 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2020-05-11 16:35:34.072 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2020-05-11 16:35:34.169 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2020-05-11 16:35:34.169 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2020-05-11 16:35:34.377 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2020-05-11 16:35:34.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2020-05-11 16:35:34.617 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2020-05-11 16:35:34.618 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2020-05-11 16:35:34.619 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-11 16:35:34.621 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1589186134621 with initial instances count: 1
+2020-05-11 16:35:34.646 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1589186134646, current=UP, previous=STARTING]
+2020-05-11 16:35:34.647 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/192.168.1.129:member:8762: registering service...
+2020-05-11 16:35:34.681 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/192.168.1.129:member:8762 - registration status: 204
+2020-05-11 16:35:34.715 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2020-05-11 16:35:34.728 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2020-05-11 16:35:34.739 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-05-11 16:35:34.759 [main] INFO  com.zdefys.MemberServer - Started MemberServer in 6.367 seconds (JVM running for 6.848)
+2020-05-11 16:35:49.440 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-11 16:35:49.500 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - ===============请求内容===============
+2020-05-11 16:35:49.500 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - 请求地址:http://192.168.1.129:8762/demo/demo
+2020-05-11 16:35:49.500 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - 请求方式:GET
+2020-05-11 16:35:49.502 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - 请求类方法:Map com.zdefys.service.impl.DemoApiServiceImpl.demo()
+2020-05-11 16:35:49.502 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - 请求类方法参数:[]
+2020-05-11 16:35:49.502 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - ===============请求内容===============
+2020-05-11 16:35:49.508 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - --------------返回内容----------------
+2020-05-11 16:35:49.514 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2020-05-11 16:35:49.514 [http-nio-8762-exec-1] INFO  com.zdefys.common.log.LogAspectServiceApi - --------------返回内容----------------

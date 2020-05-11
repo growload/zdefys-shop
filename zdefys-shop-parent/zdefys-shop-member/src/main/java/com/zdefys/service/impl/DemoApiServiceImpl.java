@@ -11,6 +11,8 @@ import com.zdefys.api.service.DemoApiService;
 import com.zdefys.common.api.BaseApiService;
 import com.zdefys.common.redis.BaseRedisService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 public class DemoApiServiceImpl extends BaseApiService implements DemoApiService{
 	
@@ -19,7 +21,6 @@ public class DemoApiServiceImpl extends BaseApiService implements DemoApiService
 
 	@Override
 	public Map<String, Object> demo() {
-		
 		return setResultSuccess();
 	}
 
