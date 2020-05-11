@@ -150,5 +150,6 @@
 		<module>zdefys-shop-eurekaserver</module>
 		<module>zdefys-shop-member</module>
 		<module>zdefys-shop-api</module>
+		<module>zdefys-shop-common</module>
 	</modules>
 </project>
