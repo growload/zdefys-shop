@@ -2,8 +2,7 @@ package com.zdefys.common.mybatis;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.InsertProvider;
-
-import feign.Param;
+import org.apache.ibatis.annotations.Param;
 
 public interface BaseDao {
 	

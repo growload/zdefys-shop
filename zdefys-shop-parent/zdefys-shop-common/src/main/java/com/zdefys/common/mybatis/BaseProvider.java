@@ -2,6 +2,10 @@ package com.zdefys.common.mybatis;
 
 import java.util.Map;
 
+import org.apache.ibatis.jdbc.SQL;
+
+import com.zdefys.common.utils.ReflectionUtils;
+
 public class BaseProvider {
 	
 	/**
@@ -17,10 +21,14 @@ public class BaseProvider {
 		String table = (String)map.get("table");
 		// 生成添加的sql语句，使用反射机制
 		// 步骤，使用反射机制加载类的所有属性
+		SQL sql = new SQL() {
+			{
+				INSERT_INTO(table);
+				VALUES(ReflectionUtils.fatherAndSonFidld(object), ReflectionUtils.fatherAndSonFidldValue(object));
+			}
+		};
 		
-		
-		return null;
-
+		return sql.toString();
 	}
 
 }

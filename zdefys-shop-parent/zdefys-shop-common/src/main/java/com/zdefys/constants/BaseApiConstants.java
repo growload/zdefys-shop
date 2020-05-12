@@ -2,6 +2,13 @@ package com.zdefys.constants;
 
 public interface BaseApiConstants {
 
+	// 响应请求成功code
+	Integer HTTP_RES_CODE_200 = 200;
+	// 系统错误
+	Integer HTTP_RES_CODE_500 = 500;
+	// 参数错误
+	Integer HTTP_RES_CODE_400 = 400;
+
 	// 响应code
 	String HTTP_RES_CODE_NAME = "code";
 	// 响应msg
@@ -12,8 +19,5 @@ public interface BaseApiConstants {
 	String HTTP_RES_CODE_200_VALUE = "success";
 	// 系统错误
 	String HTTP_RES_CODE_500_VALUE = "error";
-	// 响应请求成功code
-	Integer HTTP_RES_CODE_200 = 200;
-	// 系统错误
-	Integer HTTP_RES_CODE_500 = 500;
+
 }

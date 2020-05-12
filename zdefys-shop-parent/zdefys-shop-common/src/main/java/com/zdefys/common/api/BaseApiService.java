@@ -37,6 +37,16 @@ public class BaseApiService {
 		
 		return setResult(BaseApiConstants.HTTP_RES_CODE_500, BaseApiConstants.HTTP_RES_CODE_500_VALUE, null);
 	}
+	
+public Map<String, Object> setResultError(String msg) {
+		
+		return setResult(BaseApiConstants.HTTP_RES_CODE_500, BaseApiConstants.HTTP_RES_CODE_500_VALUE, msg);
+	}
+	
+public Map<String, Object> setResultParameterError(String msg) {
+		
+		return setResult(BaseApiConstants.HTTP_RES_CODE_400, BaseApiConstants.HTTP_RES_CODE_500_VALUE, msg);
+	}
 
 	/**
 	 * 
