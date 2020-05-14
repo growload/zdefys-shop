@@ -47,5 +47,5 @@ spring:
       enabled: false
 ##队列      
 messages:
-   queue: mail-queue
+   queue: mail_queue
    

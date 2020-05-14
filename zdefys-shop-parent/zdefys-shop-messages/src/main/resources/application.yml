@@ -5,9 +5,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+      ## mq 连接信息地址
 spring:
   application:
-    name: member
+    name: message
   activemq:
     broker-url: tcp://localhost:61616
     in-memory: true
@@ -15,8 +16,8 @@ spring:
       enabled: false
   mail:
     host: smtp.163.com
-    username: zhangdeenPD@163.com
-    password: z18738658238
+    username: zhangdeenpd@163.com
+    password: MSBPEGUYESZNNLVS 
     enable:  true
     smtp:
       auth: true
