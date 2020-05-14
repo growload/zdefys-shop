@@ -4,6 +4,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,6 +38,11 @@ public class BaseController {
 		String json = new JSONObject().toJSONString(data);
 		UserEntity userEntity = new JSONObject().parseObject(json, UserEntity.class);
 		return userEntity;
+	}
+	
+	public String setError(HttpServletRequest request, String msg, String address) {
+		request.setAttribute("error", msg);
+		return address;
 	}
 
 }

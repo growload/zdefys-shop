@@ -24,5 +24,10 @@
 			<artifactId>zdefys-shop-member-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.zdefys</groupId>
+			<artifactId>zdefys-shop-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
