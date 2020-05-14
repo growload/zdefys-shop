@@ -38,5 +38,5 @@ public interface UserService {
 	 * @return
 	 */
 	@PostMapping("/{token}")
-	public Map<String,Object> getUserInfo(@PathVariable String token);
+	public Map<String,Object> getUserInfo(@PathVariable(value = "token") String token);
 }

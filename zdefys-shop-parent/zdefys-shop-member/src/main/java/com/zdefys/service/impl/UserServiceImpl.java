@@ -69,7 +69,7 @@ public class UserServiceImpl extends BaseApiService implements UserService{
 	 * @return
 	 */
 	@Override
-	public Map<String, Object> getUserInfo(@PathVariable String token) {
+	public Map<String, Object> getUserInfo(@PathVariable(value = "token") String token) {
 		if (StringUtils.isEmpty(token)) {
 			return setResultError("token 不能为空！");
 		}
